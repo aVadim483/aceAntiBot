@@ -16,7 +16,7 @@
 define('PLUGIN_ACEANTIBOT_VERSION', '1.0');
 define('PLUGIN_ACEANTIBOT_VERSION_BUILD', '2');
 
-$config = array('version' => PLUGIN_ACEADMINPANEL_VERSION . '.' . PLUGIN_ACEANTIBOT_VERSION_BUILD);
+$config = array('version' => PLUGIN_ACEANTIBOT_VERSION . '.' . PLUGIN_ACEANTIBOT_VERSION_BUILD);
 
 $config['enable'] = true;
 
