@@ -1,4 +1,4 @@
 aceAntiBot
-==========
+=============
 
-Antibot plugin for LiveStreet/ACE
+AntiBot Plugin for LiveStreet/ACE
