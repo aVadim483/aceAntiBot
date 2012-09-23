@@ -14,7 +14,7 @@
  */
 
 define('PLUGIN_ACEANTIBOT_VERSION', '1.0');
-define('PLUGIN_ACEANTIBOT_VERSION_BUILD', '2');
+define('PLUGIN_ACEANTIBOT_VERSION_BUILD', '7');
 
 $config = array('version' => PLUGIN_ACEANTIBOT_VERSION . '.' . PLUGIN_ACEANTIBOT_VERSION_BUILD);
 
@@ -27,7 +27,11 @@ $config['fake_names'] = array(
 
 // суффикс для ложных полей
 // он не должен быть пустым!
+// разрешены только буквы, цифры, знак подчеркивания и минус
 $config['fake_suffix'] = '_real';
+
+// использовать javascript
+$config['js'] = true;
 
 return $config;
 

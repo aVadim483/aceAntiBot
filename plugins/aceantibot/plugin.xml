@@ -9,7 +9,7 @@
         <lang name="russian">Vadim Shemarov (aka aVadim)</lang>
     </author>
     <homepage>http://livestreet.ru</homepage>
-    <version>1.0.3</version>
+    <version>1.0.7</version>
     <requires>
         <livestreet>1.0.0</livestreet>
         <plugins>

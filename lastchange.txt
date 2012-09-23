@@ -1,2 +1,2 @@
-[v1.0.2; rev.$WCREV$]
-  * minor bugfix
+[v1.0.3; rev.$WCREV$]
+  * the first release

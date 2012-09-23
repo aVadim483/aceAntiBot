@@ -8,7 +8,7 @@
  * @Author: Vadim Shemarov (aka aVadim)
  * @Author URI:
  * @LiveStreet Version: 1.0.0
- * @File Name:
+ * @File Name: %%filename%%
  * @License: GNU GPL v2, http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *----------------------------------------------------------------------------
  */
@@ -20,31 +20,30 @@ if (!class_exists('Plugin')) {
     die('Hacking attempt!');
 }
 
-class PluginAceantibot extends Plugin {
+class PluginAceantibot extends Plugin
+{
 
     // Объявление делегирований (нужны для того, чтобы назначить свои экшны и шаблоны)
-    public $aDelegates = array(
-    );
+    public $aDelegates = array();
 
     // Объявление переопределений (модули, мапперы и сущности)
-    protected $aInherits=array(
-        'action'  =>array('ActionLogin'=>'_ActionLogin'),
-    );
+    protected $aInherits = array();
 
     // Активация плагина
-    public function Activate() {
+    public function Activate()
+    {
         return true;
     }
 
     // Деактивация плагина
-    public function Deactivate(){
+    public function Deactivate()
+    {
     }
 
 
     // Инициализация плагина
-    public function Init() {
-        $this->Viewer_AppendStyle(Plugin::GetTemplatePath(__CLASS__)."/css/style.css"); // Добавление своего CSS
-        //$this->Viewer_AppendScript(Plugin::GetTemplatePath(__CLASS__)."/js/script.js"); // Добавление своего JS
+    public function Init()
+    {
     }
 }
 
